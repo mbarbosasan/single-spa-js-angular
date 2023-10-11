@@ -11,12 +11,15 @@ dependencies:
   '@types/systemjs':
     specifier: ^6.1.1
     version: 6.13.3
+  angular:
+    specifier: 1.8.2
+    version: 1.8.2
   single-spa:
     specifier: ^5.9.3
     version: 5.9.5
   single-spa-angularjs:
     specifier: ^4.3.1
-    version: 4.3.1(angular@1.8.3)
+    version: 4.3.1(angular@1.8.2)
   systemjs:
     specifier: ^6.14.2
     version: 6.14.2
@@ -2118,8 +2121,8 @@ packages:
       uri-js: 4.4.1
     dev: true
 
-  /angular@1.8.3:
-    resolution: {integrity: sha512-5qjkWIQQVsHj4Sb5TcEs4WZWpFeVFHXwxEBHUhrny41D8UrBAd6T/6nPPAsLngJCReIOqi95W3mxdveveutpZw==}
+  /angular@1.8.2:
+    resolution: {integrity: sha512-IauMOej2xEe7/7Ennahkbb5qd/HFADiNuLSESz9Q27inmi32zB0lnAsFeLEWcox3Gd1F6YhNd1CP7/9IukJ0Gw==}
     deprecated: For the actively supported Angular, see https://www.npmjs.com/package/@angular/core. AngularJS support has officially ended. For extended AngularJS support options, see https://goo.gle/angularjs-path-forward.
     dev: false
 
@@ -5768,12 +5771,12 @@ packages:
     resolution: {integrity: sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==}
     dev: true
 
-  /single-spa-angularjs@4.3.1(angular@1.8.3):
+  /single-spa-angularjs@4.3.1(angular@1.8.2):
     resolution: {integrity: sha512-YEEQO1wONnhKBtjZgZpDiOm9oAtJkuy8exl7nYGkM2NFhMpFMrW4+datAZTKn12s7Yis0cV8Zay2vtVsTAg13A==}
     peerDependencies:
       angular: '*'
     dependencies:
-      angular: 1.8.3
+      angular: 1.8.2
     dev: false
 
   /single-spa@5.9.5:
